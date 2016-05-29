@@ -4,25 +4,24 @@ sitemap: false
 
 /*
  *
- *  Minimal Mistakes
+ *  Moon
  *
- *  Designer: Michael Rose
- *  Twitter: http://twitter.com/mmistakes
+ *  Designer: Taylan Tatlı
+ *  WEB: http://taylantatli.me
  *
 */
 
 // Partials
 @import "variables";
-@import "grid";
 @import "mixins";
 @import "normalize";
 @import "site";
 @import "typography";
-@import "pygments";
-@import "coderay";
 @import "elements";
-@import "forms";
-@import "page";
-@import "vendor/font-awesome/font-awesome";
+@import "syntax";
+@import "nav";
+@import "vendor/google-fonts";
+@import "vendor/font-awesome";
+@import "vendor/animate";
 @import "vendor/magnific-popup/magnific-popup";
-//@import "vendor/google/fonts";
+@import "print"

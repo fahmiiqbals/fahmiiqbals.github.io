@@ -1,42 +1,40 @@
-// TYPOGRAPHY ================================================
-$doc-font-size: 16;
-$doc-line-height: 26;
-$paragraph-indent: true !default;
-$base-font: 'PT Serif', serif;
-$heading-font: 'PT Sans Narrow', sans-serif;
-$code-font: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
-$alt-font: $base-font;
+//colors
+$bodycolor           : #D24D57;
+$black           	 : #000;
+$white               : #fff;
+$color_gray          : #e8e8e8;
+$red                 : #FF4136;
+$maroon              : #85144b;
+$color_tuatara       : #383838;
+$color_shark         : #282828;
+$color_mischka       : #d0d1d5;
+$color_mercury       : #e5e6e9;
+$color_bon_jour      : #dfe0e4;
+$color_gallery       : #f0f0f0;
+$color_stack         : #8c8b8b;
+$color_alabaster     : #f9f9f9;
+$color_tundora       : #444;
+$color_fuscous_gray  : #555;
+$color_alabaster     : #fcfcfc;
+$color_celeste       : #ccc;
+$color_pink_swan     : #bbb;
+$comp-color 	     : complement(#222); 
 
-// COLOR ======================================================
-$bodycolor      : #fff;
-$body-color     : $bodycolor;
-$textcolor      : #333332;
-$text-color     : $textcolor;
-$border-color   : $text-color;
-$basecolor 		  : #343434;	  
-$compcolor 		  : spin($basecolor, 180); 
-$bordercolor    : $basecolor;
-$white          : #fff;
-$black          : #111;
-$accentcolor    : $black;
+//button colors
+$success			 : #5cb85c;
+$warning			 : #dd8338;
+$danger				 : #C64537;
+$info		         : #308cbc;
 
-// Buttons
-$primary			: $black;
-$success			: #5cb85c;
-$warning			: #dd8338;
-$danger				: #C64537;
-$info				  : #308cbc;
+//fonts
+$font1               : Fira Sans,sans-serif;
+$font2               : Inconsolata;
+$alt-font            : serif;
+$doc-font-size       : 16;
+$doc-line-height     : 26;
 
-// Links
-$linkcolor 		    : #343434;
-$link-color       : $linkcolor;
-$linkcolorhover 	: darken($linkcolor, 10);
-$linkcolorvisited : lighten($linkcolorhover, 20);
-$linkcolorfocus 	: darken($linkcolorvisited, 10);
-
-// Media Queries
-$micro            : "only screen and (min-width: 30em)";
-$small            : "only screen and (min-width: 37.5em)";
-$medium           : "only screen and (min-width: 48em)";
-$large            : "only screen and (min-width: 62em)";
-$x-large          : "only screen and (min-width: 86.375em)";
+//media
+$small               : "only screen and (max-width: 30em)";
+$medium              : "only screen and (min-width: 30.1em) and (max-width: 48em)";
+$large               : "only screen and (min-width: 48.1em) and (max-width: 62.5em)";
+$notsmall            : "only screen and (min-width: 48em)";
