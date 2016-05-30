@@ -5,7 +5,7 @@ description:        "Sistem Informasi."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/IMG_3796.jpg'
-background:         'assets/img/IMG_3917.JPG'
+background:         'assets/img/'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                http:/fahmiiqbals.github.io
